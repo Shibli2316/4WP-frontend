@@ -1,0 +1,17 @@
+body{
+    padding: 10%;
+    font-size: 2rem;
+}
+
+/* input, button{
+    font: inherit;
+} */
+
+p{
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: justify;
+}

@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+}
+
+.nowrap{
+    white-space: nowrap;
+}
+
+.offscreen{
+    position: absolute;
+    left: -1000000px;
+}
+
+body{
+    min-height: 100vh;
+    background-color: aliceblue;
+    background-image:url(images/Screenshot\ \(1\).png), 
+                    linear-gradient(to left, blueviolet, purple);
+    background-size: 20%, auto;
+    background-repeat: repeat-y, no-repeat;
+    background-position: right;
+
+}
+
+.container{
+    background-color: rgb(251, 210, 156);
+    background-image: url('images/Screenshot\ \(3\).png');
+    background-size: cover;
+}
+
+.hero{
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+
+    /* background-color: rgb(251, 210, 156);
+    background-image: url('images/Screenshot\ \(3\).png');
+    background-size: cover; */
+    background-color: hsla(0, 0%, 0%, 0.403);
+}
+
+.h1{
+    font-size: 500%;
+    color: blueviolet;
+    text-shadow: 2px 2px 5px wheat;
+}
+
+.profile-pic-figure{
+    width: 35%;
+}
+
+.profile-pic-figure img{
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 5px double green;
+    border-radius: 50%;
+}
+.example{
+    margin-top: 1rem;
+    padding-left: 20px;
+    border: 2px solid red;
+}
+
+.example img{
+    width: 25%;
+    height: auto;
+}
